@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  div
+    h1 FreeCodeCamp: URL Shortener Microservice
+    h3 User stories:
+    ol
+      li I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
+      li When I visit that shortened URL, it will redirect me to my original link.</ul>
+    h3 How to add a new URL:
+    label.bold https://urlshortener-pepetata.c9users.io/http://www.flavioluizferreira.com
+    h3 The result is this
+    label.bold {"original_url":"http://www.flavioluizferreira.com","short_url":"http://urlshortener-pepetata.c9users.io/1"}
+    h3 Use the short URL like this:
+    label.bold http://urlshortener-pepetata.c9users.io/1
+    h3 You will the directed to :
+    label.bold http://www.flavioluizferreira.com
+    br
+  footer
+    p Running on node with Express, Jade and Stylus
+    p Inspired by Flavio Ferreira
+      
+    

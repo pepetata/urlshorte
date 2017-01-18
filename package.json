@@ -13,6 +13,12 @@
   "author": "FF",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongo-sequence": "^0.1.5",
+    "mongodb": "^2.2.21",
+    "regex": "^0.1.1",
+    "stylus": "^0.54.5",
+    "valid-url": "git+https://github.com/ogt/valid-url.git"
   }
 }
